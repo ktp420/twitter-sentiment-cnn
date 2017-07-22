@@ -1,5 +1,7 @@
 from data_helpers import *
+from collections import Counter
 import csv
+import itertools
 
 """
 Reads the dataset and creates two csv files: one with the vocabulary used in the dataset, and one with the vocabulary's integer mapping (sorted from most to least used).
